@@ -1,0 +1,10 @@
+.footerContainer {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    background-image: linear-gradient(to bottom, #ffffff 25%, #E8E8E8 75%);
+    height: 208px;
+    position: fixed;
+    width: 100%;
+    z-index: 4;
+}
