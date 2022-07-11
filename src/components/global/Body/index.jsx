@@ -1,11 +1,7 @@
-import React, {ReactNode} from "react";
+import React from "react";
 import './styles.css';
 
-interface IBody {
-    children: ReactNode;
-}
-
-function Body({children}: IBody) {
+function Body({children}) {
     return (
         <div className="bodyContainer">
             {children}

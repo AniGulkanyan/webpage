@@ -1,11 +1,7 @@
-import React, {ReactNode} from "react";
+import React from "react";
 import './styles.css';
 
-interface IFooter {
-    children: ReactNode;
-}
-
-function Footer({children}: IFooter) {
+function Footer({children}) {
     return (
         <div className="footerContainer">
             {children}

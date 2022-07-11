@@ -1,4 +1,9 @@
 .bodyContainer {
-    /*display: flex;*/
-    /*justify-content: space-between;*/
+    position:absolute;
+    top:69px;
+    bottom:208px;
+    left:0px;
+    right:0px;
+    z-index: 1;
+    width: 100%;
 }

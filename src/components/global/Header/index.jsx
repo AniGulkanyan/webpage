@@ -1,11 +1,7 @@
-import React, {ReactNode} from "react";
+import React from "react";
 import './styles.css';
 
-interface IHeader {
-    children: ReactNode;
-}
-
-function Header({children}: IHeader) {
+function Header({children}) {
     return (
         <div className="headerContainer">
             {children}
