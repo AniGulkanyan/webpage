@@ -20,10 +20,15 @@ import Footer from "../global/Footer";
 
 function MainPage() {
     const [selected, setSelected] = useState(null);
+    const [changed, setChanged] = useState()
 
     const handleSelect = useCallback((value) => {
         setSelected(value);
-    }, [selected])
+    }, [selected]);
+
+    const handleChangeOption = useCallback((value) => {
+        setChanged(value);
+    }, [selected]);
 
     return (
         <div className="mainContainer">
@@ -73,11 +78,17 @@ function MainPage() {
                         <img src={bodyIcon} alt="bodyIcon" />
                         <div className="patientTxt">For Patients</div>
                     </div>
-                    <div>Pay My Bill</div>
+                    <div className={changed === 'first' ? "billOption" : "defaultBillOption"} onClick={() => handleChangeOption('first')}>Pay My Bill</div>
+                    <div className={changed === 'second' ? "billingInfo" : "defaultBillInfo"} onClick={() => handleChangeOption('second')}>Billing Info</div>
                 </div>
                     <div className="manPhotoWrapper">
                         <img src={manPhoto} alt="bgImg" className="manPhoto"/>
-                        <div>Pay My Bill</div>
+                        <div className="titleTxt">
+                            <div className="payBill">Pay My Bill</div>
+                            <div className="longTxt">Please contact 4path toll free at(877)-88-4path or <br/>
+                            (884-7284) with questions about paying your bill.
+                            </div>
+                        </div>
                     </div>
             </Body>
             <Footer>
