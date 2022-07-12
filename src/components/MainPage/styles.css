@@ -132,11 +132,12 @@
 .genesisIcon {
     width: 255px;
     height: 33px;
-    margiin-top: 60px;
+    margin-top: 60px;
 }
 .copyRightTxt {
     font-family: Myriad Pro;
     font-size: 16px;
+    margin-top: 44px;
 }
 .rightGenesis {
     width: 114px;
@@ -151,13 +152,11 @@
 }
 .leftTxt {
     margin-right: 20px;
-    margin-top: 32px;
-    margin-bottom: 49px;
+    margin-top: 98px;
 }
 .rightText {
     margin-left: 20px;
-    margin-top: 32px;
-    margin-bottom: 49px;
+    margin-top: 98px;
 }
 .billInfo {
     position: absolute;
