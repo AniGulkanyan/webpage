@@ -92,7 +92,7 @@ function MainPage() {
                     </div>
             </Body>
             <Footer>
-                <div>
+                <div className="firstLogo">
                     <img src={headerLogo} alt="img"/>
                 </div>
                 <div className="icons">

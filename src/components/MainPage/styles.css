@@ -132,6 +132,7 @@
 .genesisIcon {
     width: 255px;
     height: 33px;
+    margiin-top: 60px;
 }
 .copyRightTxt {
     font-family: Myriad Pro;
@@ -140,6 +141,7 @@
 .rightGenesis {
     width: 114px;
     height: 71px;
+    margin-top: 40px;
 }
 .centerItemsWrapper {
     display: flex;
@@ -207,7 +209,8 @@
     background-image: linear-gradient(to bottom, #ffffff 25%, #E8E8E8 75%);
 }
 .icons {
-    margin-right: 5px
+    margin-right: 5px;
+    margin-top: 48px;
 }
 .digitalIcon {
     position: absolute;
@@ -292,4 +295,7 @@
     color: #000000;
     width: 296px;
     height: 64px;
+}
+.firstLogo {
+    margin-top: 41px;
 }
